@@ -2,7 +2,7 @@
   "name": "bianca-kald-advocacia-previdenciaria",
   "version": "1.0.0",
   "description": "Website institucional de alta performance para a Dra. Bianca Kald — Advogada Previdenciária",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
     "build": "node test_site.js",
     "start": "node server.js",
