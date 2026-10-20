@@ -1,0 +1,20 @@
+{
+  "name": "bianca-kald-advocacia-previdenciaria",
+  "version": "1.0.0",
+  "description": "Website institucional de alta performance para a Dra. Bianca Kald — Advogada Previdenciária",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test_site.js"
+  },
+  "keywords": [
+    "advocacia-previdenciaria",
+    "bianca-kald",
+    "inss",
+    "direito-previdenciario",
+    "bpc-loas"
+  ],
+  "author": "Bianca Kald — Advocacia Previdenciária",
+  "license": "ISC"
+}
