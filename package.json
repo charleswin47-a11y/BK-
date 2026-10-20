@@ -4,6 +4,7 @@
   "description": "Website institucional de alta performance para a Dra. Bianca Kald — Advogada Previdenciária",
   "main": "index.html",
   "scripts": {
+    "build": "node test_site.js",
     "start": "node server.js",
     "dev": "node server.js",
     "test": "node test_site.js"

@@ -66,6 +66,11 @@ const server = http.createServer((req, res) => {
   });
 });
 
+server.on('error', (err) => {
+  console.error('Server error:', err.message);
+  process.exit(1);
+});
+
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`🚀 Servidor Bianca Kald online na porta ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
