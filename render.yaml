@@ -1,6 +1,16 @@
 services:
+  - type: static
+    name: bk-advocacia-site
+    env: static
+    buildCommand: "echo 'Build OK'"
+    staticPublishPath: ./
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
   - type: web
-    name: bk-advocacia
+    name: bk-advocacia-web
     env: node
     plan: free
     buildCommand: "npm run build"
